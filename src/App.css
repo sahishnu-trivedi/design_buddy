@@ -2,7 +2,10 @@
 @theme {
     --color-primary: #FA6400;
     --color-primary-subtle: #FA640033;
+    --color-grey: #707070;
     --radius-br-10: 0.65rem;
+    --text-56: 3.5rem;
+    --shadow-white: 4px 4px 10px 0 rgba(0, 0, 0, 0.15)
 }
 body{font-family: 'Poppins', sans-serif;}
 svg{display: inline-block;}

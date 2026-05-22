@@ -5,7 +5,7 @@ import { NAV_LINK } from '../../constants/NavItem'
 
 const Header = () => {
   return (
-    <header className='fixed left-0 top-0 w-full py-10'>
+    <header className='static left-0 top-0 w-full py-10'>
       <div className='main-container mx-auto'>
         <div className='grid grid-cols-3 gap-4 items-center'>
           <div>

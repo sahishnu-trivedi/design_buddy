@@ -1,7 +1,10 @@
 const IMAGES = {
     arrowSvg: <svg width="34" height="18" viewBox="0 0 34 18" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1.5 7.16028C0.671573 7.16028 0 7.83185 0 8.66028C0 9.48871 0.671573 10.1603 1.5 10.1603V8.66028V7.16028ZM33.5 8.66028L18.5 2.38419e-05V17.3205L33.5 8.66028ZM1.5 8.66028V10.1603H20V8.66028V7.16028H1.5V8.66028Z" fill="white"/>
-        </svg>,    
+        </svg>,
+    primaryArrowSvg: <svg className="ml-3" width="34" height="18" viewBox="0 0 34 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.5 7.16016C0.671573 7.16016 0 7.83173 0 8.66016C0 9.48858 0.671573 10.1602 1.5 10.1602V8.66016V7.16016ZM33.5 8.66016L18.5 -9.82285e-05V17.3204L33.5 8.66016ZM1.5 8.66016V10.1602H20V8.66016V7.16016H1.5V8.66016Z" fill="#FA6400"/>
+        </svg>, 
     figmaSvg: <svg width="67" height="100" viewBox="0 0 67 100" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M50.2344 33.833C59.1627 33.8332 66.4004 41.0718 66.4004 50C66.4002 58.9284 59.1624 66.1658 50.2344 66.166C41.3058 66.166 34.0676 58.9284 34.0674 50C34.0674 41.0715 41.3058 33.833 50.2344 33.833Z" fill="#F88C45" stroke="#FA6400"/>
         <path d="M33.067 66.9482V83.333C33.067 92.2616 25.8294 99.4998 16.901 99.5C7.97245 99.5 0.734009 92.2616 0.734009 83.333C0.734223 74.4046 7.97258 67.167 16.901 67.167H17.024L17.1344 67.1094L25.7653 62.5518L33.067 66.9482Z" fill="#F88C45" stroke="#FA6400"/>
@@ -35,7 +38,11 @@ const IMAGES = {
         <path d="M93.6156 0H6.39081C2.85973 0 0 2.85972 0 6.3779V93.6092C0 97.1403 2.86618 100 6.38435 100H93.6092C97.1467 100 99.9935 97.1338 99.9935 93.6092V6.3779C100 2.85327 97.1532 0 93.6156 0ZM34.6459 73.8945H24.1882V27.8032H34.6459V73.8945ZM66.6 73.8945L66.1223 68.9755H65.9738C63.85 72.7326 59.8283 74.6498 55.5161 74.6498C47.5825 74.6498 41.2239 67.8717 41.2239 57.4785C41.1529 46.201 48.2022 39.7005 56.2068 39.7005C60.306 39.7005 63.5208 41.14 65.0249 43.4639H65.1604V25.3437H75.5536V63.9081C75.5536 67.678 75.6891 71.6416 75.8311 73.901L66.6 73.8945Z" fill="#F88C45"/>
         </svg>,    
     logoImg: new URL('./logo.png', import.meta.url).href,
-    bannerImg: new URL('./bannerImg.png', import.meta.url).href
+    bannerImg: new URL('./bannerImg.png', import.meta.url).href,
+    serviceImg1: new URL('./service_img_1.png', import.meta.url).href,
+    serviceImg2: new URL('./service_img_2.png', import.meta.url).href,
+    serviceImg3: new URL('./service_img_3.png', import.meta.url).href,
+    serviceImg4: new URL('./service_img_4.png', import.meta.url).href,
 }
 
 export default IMAGES
