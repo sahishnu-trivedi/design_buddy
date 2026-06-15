@@ -18,9 +18,7 @@ const Banner = () => {
                     </h2>
                     <a href='#' className='text-3xl'>
                         Let’s Design!
-                        <svg className='ml-4' width="34" height="18" viewBox="0 0 34 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.5 7.16016C0.671573 7.16016 0 7.83173 0 8.66016C0 9.48858 0.671573 10.1602 1.5 10.1602V8.66016V7.16016ZM33.5 8.66016L18.5 -9.82285e-05V17.3204L33.5 8.66016ZM1.5 8.66016V10.1602H20V8.66016V7.16016H1.5V8.66016Z" fill="#FA6400"/>
-                        </svg>
+                        {IMAGES.primaryArrowSvg}
                     </a>
                 </div>
             </div>

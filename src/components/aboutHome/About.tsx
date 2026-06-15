@@ -6,7 +6,7 @@ import ShadowBox from '../shadowBox/ShadowBox'
 
 const About = () => {
   return (
-    <div className='main-container'>
+    <section className='main-container'>
       <div className='py-25 grid grid-cols-2 gap-7'>
         <div>
           <Title as='h2' classNameText='text-56'> Why We’re Your <span className='text-primary'>Design BFFs</span> </Title>
@@ -42,7 +42,7 @@ const About = () => {
           </ShadowBox>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

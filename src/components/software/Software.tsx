@@ -3,7 +3,7 @@ import IMAGES from '../../assets/Images'
 
 const Software = () => {
   return (
-    <div className='bg-primary'>
+    <section className='bg-primary'>
         <div className='main-container'>
             <ul className='flex justify-around items-center py-6'>
                 <li>{IMAGES.figmaSvg}</li>
@@ -14,7 +14,7 @@ const Software = () => {
                 <li>{IMAGES.inDesignSvg}</li>
             </ul>
         </div>
-    </div>
+    </section>
   )
 }
 

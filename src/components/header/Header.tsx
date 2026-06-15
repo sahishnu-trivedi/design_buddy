@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import IMAGES from '../../assets/Images'
 import { NAV_LINK } from '../../constants/NavItem'
+import Title from '../title/Title'
+import Text from '../text/Text'
+import SubMenu from '../subMenu/SubMenu'
 
 const Header = () => {
+
+  const filteredMainMenu = NAV_LINK.filter((menuItem) => (menuItem.menuLocation === 'mainMenu'))
+  
   return (
     <header className='static left-0 top-0 w-full py-10'>
       <div className='main-container mx-auto'>
@@ -14,12 +20,15 @@ const Header = () => {
           <div>
             <ul className='flex justify-center items-center'>
               {
-                NAV_LINK.map(menuItem => (
+                filteredMainMenu.map(menuItem => (
                   <li key={menuItem.id} className='mr-10'>
-                    <NavLink to={menuItem.path} className={({ isActive }) => (`relative pb-3 ${isActive ? 'link-active' : ''}`)}>{menuItem.label}</NavLink>
+                    <NavLink to={menuItem.path} className={({ isActive }) => (`relative pb-3 ${isActive ? 'link-active' : ''}`)}>
+                      {menuItem.label}
+                    </NavLink>
                   </li>
                 ))
               }
+              <SubMenu />
             </ul>
           </div>
           <div className='text-right'>

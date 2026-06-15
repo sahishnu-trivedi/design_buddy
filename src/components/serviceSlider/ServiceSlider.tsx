@@ -4,7 +4,7 @@ import IMAGES from '../../assets/Images'
 
 function ServiceSlider() {
   return (
-    <div className='py-25'>
+    <section className='py-25'>
         <div className='grid grid-cols-4 gap-6'>
             <div className='bg-black'>
                 <Title as='h4' classNameText='text-7xl text-grey p-1'>UI/UX <span className='block text-right'>DESIGN</span> </Title>
@@ -23,7 +23,7 @@ function ServiceSlider() {
                 <img src={IMAGES.serviceImg4} alt='WEBSITE Design' className='w-full' />
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 
